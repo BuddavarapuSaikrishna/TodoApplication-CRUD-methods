@@ -1,0 +1,49 @@
+
+.list-items-container{
+
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-items{
+    border:3px solid #0f0c29;
+    outline:none;
+    width:100%;
+    padding:8px;
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    border-radius:20px;
+}
+
+.active{
+
+    text-decoration: line-through;
+    color:green;
+    
+}
+
+.buttons-container{
+    width:25%;
+    display:flex;
+    margin-left:30px;
+}
+
+.edit-btn{
+  outline: none;
+  background-color: transparent;
+  border:none;
+  margin-right:10px;
+}
+
+.delete-btn{
+
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
